@@ -5542,7 +5542,7 @@ const GEV_REALTIME_TOOLS = [
       properties: {
         locationId: {
           type: 'string',
-          enum: ['austin', 'sf', 'nyc', 'tokyo', 'london', 'paris', 'dubai', 'dc'],
+          enum: ['austin', 'sf', 'nyc', 'tokyo', 'london', 'paris', 'dubai', 'porto', 'dc'],
           description: 'Known city preset ID. Use when the requested place matches one of these cities.',
         },
         query: {
@@ -5584,7 +5584,7 @@ const GEV_REALTIME_TOOLS = [
         },
         locationId: {
           type: 'string',
-          enum: ['austin', 'sf', 'nyc', 'tokyo', 'london', 'paris', 'dubai', 'dc'],
+          enum: ['austin', 'sf', 'nyc', 'tokyo', 'london', 'paris', 'dubai', 'porto', 'dc'],
           description: 'Known city preset ID when the place matches one of these cities.',
         },
         locationQuery: {
@@ -5932,7 +5932,7 @@ const GEV_REALTIME_TOOLS = [
         },
         locationId: {
           type: 'string',
-          enum: ['austin', 'sf', 'nyc', 'tokyo', 'london', 'paris', 'dubai', 'dc'],
+          enum: ['austin', 'sf', 'nyc', 'tokyo', 'london', 'paris', 'dubai', 'porto', 'dc'],
           description: 'Known nearby-city anchor for select.',
         },
         locationQuery: { type: 'string', maxLength: 120, description: 'Place to search near, such as "Austin, Texas" or "Seattle". Selection does not fly the camera.' },

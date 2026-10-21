@@ -250,6 +250,9 @@ const CAMERA_SEEDS = [
   { id: 'dubai-difc-loop', cityId: 'dubai', poiIndex: 4, label: 'DIFC Loop', offsetNorthM: 92, offsetEastM: -45, headingDeg: 196, fovDeg: 70, rangeM: 720, elevationM: 26 },
   { id: 'dubai-downtown-east', cityId: 'dubai', poiIndex: 0, label: 'Downtown East', offsetNorthM: -130, offsetEastM: 190, headingDeg: 322, fovDeg: 72, rangeM: 760, elevationM: 28 },
 
+  { id: 'porto-ribeira', cityId: 'porto', poiIndex: 0, label: 'Cais da Ribeira', offsetNorthM: 60, offsetEastM: -300, headingDeg: 105, fovDeg: 72, rangeM: 720, elevationM: 18 },
+  { id: 'porto-aliados', cityId: 'porto', poiIndex: 1, label: 'Avenida dos Aliados', offsetNorthM: 245, offsetEastM: 240, headingDeg: 190, fovDeg: 68, rangeM: 640, elevationM: 22 },
+
   { id: 'austin-congress-s', cityId: 'austin', poiIndex: 0, label: 'Congress Southbound', offsetNorthM: -165, offsetEastM: 40, headingDeg: 12, fovDeg: 74, rangeM: 760, elevationM: 24 },
   { id: 'austin-downtown-west', cityId: 'austin', poiIndex: 1, label: 'Downtown West', offsetNorthM: -120, offsetEastM: -160, headingDeg: 120, fovDeg: 69, rangeM: 700, elevationM: 20 },
 ];

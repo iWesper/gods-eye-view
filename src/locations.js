@@ -105,6 +105,18 @@ export const CITY_POIS = {
       { name: 'Museum of the Future', lat: 25.2197, lon: 55.2806, alt: 350, pitch: -20, heading: 30, buildingHeight: 35 },
     ],
   },
+  porto: {
+    name: 'Porto',
+    groundElevation: 60,
+    viewBounds: { southwest: { lat: 41.08, lng: -8.72 }, northeast: { lat: 41.27, lng: -8.52 } },
+    pois: [
+      { name: 'Ponte Luís I', lat: 41.1399, lon: -8.6094, alt: 650, pitch: -22, heading: 80, buildingHeight: 45 },
+      { name: 'Torre dos Clérigos', lat: 41.1458, lon: -8.6139, alt: 450, pitch: -25, heading: 300, buildingHeight: 40 },
+      { name: 'Casa da Música', lat: 41.1588, lon: -8.6307, alt: 400, pitch: -30, heading: 45, buildingHeight: 20 },
+      { name: 'Porto de Leixões', lat: 41.1850, lon: -8.7030, alt: 1500, pitch: -35, heading: 300, buildingHeight: 10 },
+      { name: 'Porto Airport (OPO)', lat: 41.2481, lon: -8.6814, alt: 2200, pitch: -35, heading: 0, buildingHeight: 10 },
+    ],
+  },
   dc: {
     name: 'Washington DC',
     groundElevation: 10,
