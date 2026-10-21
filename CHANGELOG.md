@@ -7,6 +7,11 @@ of current runtime behavior, see [`docs/CURRENT-STATE.md`](docs/CURRENT-STATE.md
 
 ### Added
 
+- Added Porto as a city preset: Ponte Luís I, Torre dos Clérigos, Casa da
+  Música, Porto de Leixões, and Porto Airport, with voice `locationId` support
+  and two modeled CCTV seeds.
+- Added `npm run qa:a11y`, a harness that checks keyboard access, focus
+  visibility, contrast, and reduced-motion behavior in the running app.
 - Added honest aircraft identity narration: callsign, operator, registration,
   type, and route come only from selected-contact context, and missing operator,
   route, or type enrichment is named explicitly.
