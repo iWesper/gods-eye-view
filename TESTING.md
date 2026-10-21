@@ -10,6 +10,21 @@ This guide covers the hardened annotation and tracking behavior. Record a voice
 note + screenshots as you go; each scenario
 lists what **✅ pass** looks like and (where it applies) the **❌ old bug** it replaces.
 
+## Accessibility checks
+
+With the Vite development server running on port 4173 (a placeholder
+`GOOGLE_MAPS_API_KEY` is enough), drive the app as a keyboard and
+reduced-motion user:
+
+```sh
+npm run qa:a11y -- --url http://localhost:4173 --json qa-shots/a11y/report.json
+```
+
+It checks the first-run modal, keyboard access to the Location tray, visible
+focus on every tab stop, chrome text contrast and minimum size, infinite
+animations and city-jump camera motion under `prefers-reduced-motion`, plus an
+axe-core WCAG 2.1 AA scan. The exit code is the number of failed checks.
+
 ## Focus/horizon moving evidence
 
 With the Vite development server already running on port 4173, capture all four
